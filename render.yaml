@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: ravi-yt
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    plan: free
+EOF
